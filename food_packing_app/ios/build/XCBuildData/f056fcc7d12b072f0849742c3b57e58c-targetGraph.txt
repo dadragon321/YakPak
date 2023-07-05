@@ -1,0 +1,57 @@
+Target dependency graph (17 targets)
+Flutter in Pods, no dependencies
+GTMSessionFetcher in Pods, no dependencies
+PromisesObjC in Pods, no dependencies
+GoogleUtilities in Pods, depends on:
+PromisesObjC in Pods (explicit)
+nanopb in Pods, no dependencies
+GoogleDataTransport in Pods, depends on:
+GoogleUtilities in Pods (explicit)
+PromisesObjC in Pods (explicit)
+nanopb in Pods (explicit)
+GoogleToolboxForMac in Pods, no dependencies
+GoogleUtilitiesComponents in Pods, depends on:
+GoogleUtilities in Pods (explicit)
+Protobuf in Pods, no dependencies
+MLKitCommon in Pods, depends on:
+GoogleDataTransport in Pods (explicit)
+GoogleToolboxForMac in Pods (explicit)
+GoogleUtilities in Pods (explicit)
+GoogleUtilitiesComponents in Pods (explicit)
+GTMSessionFetcher in Pods (explicit)
+Protobuf in Pods (explicit)
+MLImage in Pods, no dependencies
+MLKitVision in Pods, depends on:
+GoogleToolboxForMac in Pods (explicit)
+GTMSessionFetcher in Pods (explicit)
+MLImage in Pods (explicit)
+MLKitCommon in Pods (explicit)
+Protobuf in Pods (explicit)
+MLKitBarcodeScanning in Pods, depends on:
+MLKitCommon in Pods (explicit)
+MLKitVision in Pods (explicit)
+GoogleMLKit in Pods, depends on:
+MLKitBarcodeScanning in Pods (explicit)
+MLKitCommon in Pods (explicit)
+mobile_scanner in Pods, depends on:
+Flutter in Pods (explicit)
+GoogleMLKit in Pods (explicit)
+path_provider_ios in Pods, depends on:
+Flutter in Pods (explicit)
+Pods-Runner in Pods, depends on:
+Flutter in Pods (explicit)
+GTMSessionFetcher in Pods (explicit)
+GoogleDataTransport in Pods (explicit)
+GoogleMLKit in Pods (explicit)
+GoogleToolboxForMac in Pods (explicit)
+GoogleUtilities in Pods (explicit)
+GoogleUtilitiesComponents in Pods (explicit)
+MLImage in Pods (explicit)
+MLKitBarcodeScanning in Pods (explicit)
+MLKitCommon in Pods (explicit)
+MLKitVision in Pods (explicit)
+PromisesObjC in Pods (explicit)
+Protobuf in Pods (explicit)
+mobile_scanner in Pods (explicit)
+nanopb in Pods (explicit)
+path_provider_ios in Pods (explicit)

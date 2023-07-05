@@ -1,0 +1,79 @@
+name: food_packing
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.1+1
+
+environment:
+  sdk: '>=2.18.1 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mobile_scanner: ^2.0.0
+  cupertino_icons: ^1.0.2
+  http: ^0.13.5
+  path_provider: ^2.0.11
+  uuid: ^3.0.6
+  settings_ui: ^2.0.2
+  flutter_slidable: ^2.0.0
+  flutter_phoenix: ^1.1.0
+  number_inc_dec: ^0.8.0
+  table_calendar: ^3.0.9
+  flutter_grid_button: ^2.0.0
+  intl: ^0.18.1
+  shared_preferences: ^2.1.0
+  flutter_map: ^3.1.0
+  latlong2: ^0.8.1
+  geocoding: ^2.1.0
+  geolocator: ^9.0.2
+  permission_handler: ^10.2.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: "^0.9.2"
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/YakPakAppIcon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/YakPakAppIcon.png
+    - assets/images/YakPakLogoNoBackground.png
+  
+  fonts:
+    - family: YakPak
+      fonts:
+        - asset: assets/iconography/demo/fonts/yakpak.ttf
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/Raleway/static/Raleway-Regular.ttf
+        - asset: assets/fonts/Raleway/static/Raleway-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Raleway/static/Raleway-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Raleway/static/Raleway-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Raleway/static/Raleway-Thin.ttf
+          weight: 200
+
+
